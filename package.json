@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "Alexandre-Kim-Profile-Website",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Alexandre Kim's profile website",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
