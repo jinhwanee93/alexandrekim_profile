@@ -1,3 +1,10 @@
-import React from "react"
+import React from 'react';
+import Hero from './components/Hero';
 
-export default () => <div>My Profile Website!</div>
+export default function Index() {
+  return(
+    <div>
+      <Hero/>
+    </div>
+  )
+}
