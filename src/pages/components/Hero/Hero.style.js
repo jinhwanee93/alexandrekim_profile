@@ -12,6 +12,7 @@ export const HeroTitle = styled.h1`
     border-right: .15em solid white;
     color: white;
     font-family: monospace;
+    font-size: 32px;
     overflow: hidden;
     white-space: nowrap;
     margin: 0 auto;
