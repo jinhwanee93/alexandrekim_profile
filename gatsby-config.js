@@ -6,4 +6,9 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: `Profile Website`,
+    siteUrl: `https://www.alexandrekim.com`,
+    description: `Profile website made by and for Alexandre Kim`,
+  }
 }
