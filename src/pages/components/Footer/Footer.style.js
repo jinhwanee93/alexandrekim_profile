@@ -15,7 +15,7 @@ export const FooterLink = styled.a`
 `
 
 export const FooterEmail = styled.div`
-    bottom: 210px;
+    bottom: 240px;
     color: white;
     font-family: monospace;
     position: fixed;
