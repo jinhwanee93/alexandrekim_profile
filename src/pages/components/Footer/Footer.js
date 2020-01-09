@@ -1,15 +1,17 @@
 import React from 'react';
-// import React, { useState } from 'react';
-// import SimpleIcons from 'simple-icons';
+import Icon from 'react-simple-icons';
 
 import {
   FooterContainer,
   FooterEmail,
-  FooterLink
+  FooterEmailContainer,
+  FooterLink,
+  FooterSocial,
+  FooterSocialContainer,
+  FooterSocialIcons,
 } from './Footer.style';
 
 export default function Footer() {
-  // const [gitHub] = useState(SimpleIcons.get('github'));
 
   return(
     <div>
@@ -17,9 +19,35 @@ export default function Footer() {
         <FooterLink href="https://www.github.com/jinhwanee93">
           Designed & built by Alexandre Kim
         </FooterLink>
-        <FooterEmail>
-          alexandrekim93@gmail.com
-        </FooterEmail>
+
+        <FooterSocialContainer>
+          <FooterSocial>
+            <FooterSocialIcons>
+              <a href="https://github.com/jinhwanee93">
+                <Icon name="github"/>
+              </a>
+            </FooterSocialIcons>
+            <FooterSocialIcons>
+              <a href="https://linkedin.com/in/alexandrekim93">
+                <Icon name="linkedin"/>
+              </a>
+            </FooterSocialIcons>
+            <FooterSocialIcons>
+              <a href="https://instagram.com/xandrekim">
+                <Icon name="instagram"/>
+              </a>
+            </FooterSocialIcons>
+          </FooterSocial>
+        </FooterSocialContainer>
+
+        <FooterEmailContainer>
+          <FooterEmail>
+            <a href="mailto:alexandrekim93@gmail.com">
+              alexandrekim93@gmail.com
+            </a>
+          </FooterEmail>
+        </FooterEmailContainer>
+
       </FooterContainer>
     </div>
   )

@@ -1,18 +1,18 @@
 import styled from 'styled-components';
 
-export const HeroContainer = styled.div`
+export const HeroContainer = styled.section`
     align-items: center;
     background: #333;
     display: flex;
-    height: 98vh;
-    width: 100%;
+    height: 56vh;
+    justify-content: flex-start;
 `;
 
 export const HeroTitle = styled.h1`
     border-right: .15em solid white;
     color: white;
     font-family: monospace;
-    font-size: 32px;
+    font-size: 42px;
     overflow: hidden;
     white-space: nowrap;
     margin: 0 auto;
